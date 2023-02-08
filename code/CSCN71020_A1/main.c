@@ -47,7 +47,9 @@ void add() {
 	printf("Enter the third value:");
 	scanf_s("%lf", &num3);
 	result = num1 + num2+num3;
-	printf("%lf + %lf %f = %lf\n", num1, num2,num3,result);
+	printf("%lf + %lf + %f = %lf\n", num1,num2,num3,result);
+	
+	exit();
 }
 void sub() {
 	double num1, num2, num3, result;
@@ -59,4 +61,6 @@ void sub() {
 	scanf_s("%lf", &num3);
 	result = num1 - num2 - num3;
 	printf("%lf - %lf - %f = %lf\n", num1, num2, num3, result);
+
+	exit();
 }
